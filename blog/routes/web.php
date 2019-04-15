@@ -11,15 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/test', function () {
-    return "Hello World";
-});
+// Route::get('/test', function () {
+//     return "Hello World";
+// });
 
-Route::redirect('/', '/test');
+// Route::redirect('/', '/test');
 
 // Route::view('/', 'welcome');
 
@@ -40,3 +40,10 @@ Route::get('/user/{name}/{id}', function ($name, $id) {
 })->where(['id' => '[0-9]+', 'name' => '[a-zA-Z]+']);
 
 //Regular Expresion
+
+Route::get('/test/{name}', 'UserController@show');
+Route::get('/welcome', 'UserController@welcome');
+Route::resource('/books', 'BookController');
+Route::get('/blade', function(){
+    return view('child');
+});
