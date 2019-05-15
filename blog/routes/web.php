@@ -11,9 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/test', function () {
 //     return "Hello World";
@@ -47,3 +47,13 @@ Route::resource('/books', 'BookController');
 Route::get('/blade', function(){
     return view('child');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('login', 'LoginController@authenticate')->name('manual_login');
+
+Route::resource('/flight', 'FlightController');
