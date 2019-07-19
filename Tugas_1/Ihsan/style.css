@@ -1,0 +1,18 @@
+body{
+    background-image: url(images/1_Kangaroo.jpg);
+    position: center;
+    background-size: 1040px;
+}
+
+.head{
+    color: white;
+    font-family: cursive;
+    font-size: 90px; 
+}
+
+.text{
+    color: white;
+    font-family: monospace;
+    font-size: 15px; 
+}
+ 

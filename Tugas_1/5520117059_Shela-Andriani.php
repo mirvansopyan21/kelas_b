@@ -1,0 +1,2 @@
+
+kangguru(0,3,4,2)<br>kangguru1 =36912<br>kangguru2 =681012<br><b> yess </b> <br></br>kangguru(1,3,5,1)<br>kangguru1 =471013<br>kangguru2 =6789<br><b> no </b> <br></br>kangguru(4,2,1,5)<br>kangguru1 =681012<br>kangguru2 =6111621<br><b> no </b> <br></br>

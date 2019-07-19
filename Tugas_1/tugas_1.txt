@@ -1,1 +1,28 @@
-tugas_1
+Terdapat dua kangguru yang siap melompat. 
+Kangguru pertama mulai melompat di lokasi x1 dan bergerak dengan rata-rata v1 meter setiap lompatannya. 
+Kangguru kedua memulai di lokasi x2 dan bergerak dengan rata-rata v2 meter setiap lompatannya. 
+Diberikan lokasi awal dan rata-rata pergerakan untuk setiap kangguru nya. 
+Dengan menggunakan bahasa PHP atau javaScript,
+Tentukan apakah kedua kangguru tersebut akan berada dilokasi yang sama dengan jumlah lompatan yang sama? (maksimum lompatan adalah 50).
+
+Input Format
+function kangguru($x1, $v1, $x2, $v2) {};
+
+Output Format
+Print out “YES” jika kedua kangguru tersebut berada di lokasi yang sama dengan jumlah lompatan yang sama, dan print out “NO” jika sebaliknya.
+
+Sample Input
+function kangguru(0, 3, 4, 2) {};
+
+Sample output
+YES
+
+Penjelasan
+Kangguru 1 = 0 -> 3 -> 6 -> 9 -> 12
+Kangguru 2 = 4 -> 6 -> 8 -> 10 -> 12
+
+Kedua kangguru sama-sama memiliki nilai yang sama pada jumlah lompatan yang sama yaitu nilai 12 dengan jumlah lompatan sebanyak 4.
+
+
+Keterangan:
+Batas akhir melakukan pull request adalah hari minggu tanggal 24 Februari 2019, pukul 23.59 WIB.
